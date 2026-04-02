@@ -1,12 +1,3 @@
-HY-MT1.5-7B-Q8_0.gguf
-https://huggingface.co/tencent/HY-MT1.5-7B-GGUF/tree/main
-
-qwen2.5-coder-7b-instruct-q8_0.gguf
-https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/tree/main
-
-Qwen2.5-Coder-14B-Instruct-Q8_K_M.gguf
-https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/tree/main
-
 qwen2.5-coder-32b-instruct-q8_k_m.gguf
 https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/tree/main
 
@@ -20,6 +11,24 @@ Coder化する方法
 temperature: 0.2〜0.6
 top_p: 0.9〜0.95
 top_k: 20〜40
+
+Qwen3.5-27B　コーディング
+https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/tree/main
+
+
+
+Qwen3-32B / Qwen3-30B-A3B < Qwen3.5-35B-A3B（より新しい）
+
+HY-MT1.5-7B-Q8_0.gguf
+https://huggingface.co/tencent/HY-MT1.5-7B-GGUF/tree/main
+
+qwen2.5-coder-7b-instruct-q8_0.gguf
+https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/tree/main
+
+Qwen2.5-Coder-14B-Instruct-Q8_K_M.gguf
+https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/tree/main
+
+
 
 DeepSeek-R1-Distill-Qwen-32B-Q4_K_M.gguf（DeepSeek-R1-32B蒸留）gpt-oss-20Bより劣る
 https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF/tree/main
