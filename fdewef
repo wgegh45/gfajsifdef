@@ -1,11 +1,11 @@
-qwen2.5-coder-32b-instruct-q8_k_m.gguf
+qwen2.5-coder-32b-instruct-q8_k_m.gguf　　コーディング
 https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/tree/main
 
-gpt-oss-20b-Q8_0.gguf
+gpt-oss-20b-Q8_0.gguf　（汎用）
 https://huggingface.co/unsloth/gpt-oss-20b-GGUF
 https://huggingface.co/babytifa/gpt-oss-20b.gguf/tree/main
 
-Qwen3.5-35B-A3B-Q4_K_M.gguf　（汎用）
+Qwen3.5-35B-A3B-Q4_K_M.gguf　（汎用）　gpt-oss-20Bより性能上
 https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/tree/main
 Coder化する方法
 temperature: 0.2〜0.6
@@ -14,6 +14,34 @@ top_k: 20〜40
 
 Qwen3.5-27B　コーディング
 https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/tree/main
+
+
+① 用途を分類（最重要）
+用途	選ぶ系統
+コード生成・補完	Coder系
+バグ修正・設計	推論強い汎用モデル
+会話・翻訳	汎用モデル
+長文解析	長コンテキストモデル
+
+② VRAMで上限を決める
+VRAM	上限モデル
+24GB	35Bクラス（最適帯）
+
+③ DenseかMoEか選ぶ
+条件	選択
+安定・軽さ		Dense
+高性能・効率	MoE
+
+④ モデル特性で最終決定
+■ コード用途
+短いコード・補完 → Qwen2.5-Coder-32B
+複雑・設計・修正 → Qwen3.5系
+
+■ 汎用・思考
+高精度 → Qwen3.5-27B / 35B
+最強（重い） → DeepSeek系
+
+
 
 
 
