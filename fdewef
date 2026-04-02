@@ -42,7 +42,8 @@ VRAM	上限モデル
 最強（重い） → DeepSeek系
 
 
-
+Q4_K_M → OK
+Q3以下 → 非推奨（コード弱くなる）
 
 
 Qwen3-32B / Qwen3-30B-A3B < Qwen3.5-35B-A3B（より新しい）
