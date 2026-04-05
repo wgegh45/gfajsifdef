@@ -1,3 +1,10 @@
+
+olmOCR-2
+https://huggingface.co/richardyoung/olmOCR-2-7B-1025-GGUF/tree/main
+https://huggingface.co/giulio-c/olmOCR-2-7B-1025-FP8-Q4_K_M-GGUF/tree/main
+1ページずつ：複数ページは1枚ずつ処理が基本
+画像（PNG/JPG）に変換してから渡す
+
 qwen2.5-coder-32b-instruct-q8_k_m.gguf　　コーディング
 https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF/tree/main
 
